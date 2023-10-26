@@ -1,0 +1,21 @@
+.inc {
+    background: #16cf16;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.dec {
+    background: #cf5716;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: white;
+}
+
+.delete {
+    border-radius: 50%;
+    font-size: 2rem;
+    cursor: pointer;
+}
