@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { AppContext } from "./contexts/Mycontext";
 
 function ChangeAllocation() {
-    const {initialstate,dispatch} = useContext(AppContext)
+    const {initialstate,dispatch,currency} = useContext(AppContext)
     const [cost,addcost] = useState(0);
     return (
         <div className="row">
@@ -24,7 +24,7 @@ function ChangeAllocation() {
                     <option value="Remove">Remove</option>
                 </select>
             </div>
-            <div className="col-sm row alert">$
+            <div className="col-sm row alert">{currency}
                 <input type="number" className="col-sm" size="sm" id="input"  onChange={(e)=>{
                     e.preventDefault()
                     addcost(e.target.value)}} />
