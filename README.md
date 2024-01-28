@@ -9,5 +9,7 @@ By the Completion of this project you will be able understand react more Clearly
 
 # To Run the APP
 Install the Node modules using 
-command # npm install
-run the app by the command # npm run dev
+command 
+#npm install
+run the app by the command 
+#npm run dev
