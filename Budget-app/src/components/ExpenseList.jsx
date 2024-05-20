@@ -16,8 +16,8 @@ function ExpenseList() {
                     <tr>
                         <th>Department</th>
                         <th>Budget Allocation</th>
-                        <th>Increse by 10</th>
-                        <th>Decrese by 10</th>
+                        <th>Increase by 10</th>
+                        <th>Decrease by 10</th>
                         <th>Delete</th>
                     </tr>
                 </thead>
