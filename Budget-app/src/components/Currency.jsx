@@ -32,7 +32,7 @@ function Currency() {
                     )
 
                 }}>
-                    <option  value="Dolllar"> $ Dollar</option>
+                    <option  value="Dollar"> $ Dollar</option>
                     <option  value="Pound"> £ Pound</option>
                     <option  value="Euro"> € Euro</option>
                     <option  value="Rupee"> ₹ Rupee</option>
