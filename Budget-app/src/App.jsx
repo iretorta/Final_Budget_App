@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Budget from "./components/Budget"
-import Remaining from "./components/Reamining"
+import Remaining from "./components/Remaining"
 import ExpenseTotal from "./components/ExpenseTotal"
 import Currency from "./components/Currency"
 import ExpenseList from "./components/ExpenseList"
